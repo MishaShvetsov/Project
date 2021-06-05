@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?jsft1c');
+  src:  url('../fonts/icomoon.eot?jsft1c#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?jsft1c') format('truetype'),
+    url('../fonts/icomoon.woff?jsft1c') format('woff'),
+    url('../fonts/icomoon.svg?jsft1c#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak-as: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bookmark:before {
+  content: "\e900";
+}
+.icon-call:before {
+  content: "\e901";
+}
+.icon-collect:before {
+  content: "\e902";
+}
+.icon-download:before {
+  content: "\e903";
+}
+.icon-forward:before {
+  content: "\e904";
+}
+.icon-hurt:before {
+  content: "\e905";
+}
+.icon-rewind:before {
+  content: "\e906";
+}
+.icon-send:before {
+  content: "\e907";
+}
+.icon-stack:before {
+  content: "\e908";
+}
+.icon-map-marker:before {
+  content: "\f041";
+}
